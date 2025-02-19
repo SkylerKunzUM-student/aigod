@@ -1,0 +1,171 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+    background: #4e73df; /* Soothing blue */
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #ff6f61; /* Warm, welcoming red */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #e85a4f;
+}
+
+/* About Section */
+#about {
+    padding: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#about p {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Products Section */
+#products {
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+.product {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product h3 {
+    font-size: 1.8em;
+    color: #4e73df;
+}
+
+.product p {
+    margin-top: 10px;
+}
+
+#blog {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+}
+
+.blog-post h3 {
+    font-size: 1.5em;
+}
+
+.blog-post a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+/* Testimonials */
+#testimonials {
+    background-color: #f1f1f1;
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 20px;
+    font-style: italic;
+}
+
+.testimonial span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #4e73df;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #3c60b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
